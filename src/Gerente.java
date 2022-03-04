@@ -5,8 +5,8 @@ public class Gerente extends Funcionario {
         return this.senha == senha;
     }
 
-    public double getBonification() {
-        return this.getSalario();
+    public double getBonus() {
+        return super.getSalario();
     }
 
     public int getSenha() {
